@@ -19,25 +19,25 @@ void mostrarMenu() {
 
         switch (opcion) {
             case 1:
-                cout << "Has seleccionado la Opción 1.\n";
+                cout << "Crear amistad.\n";
             break;
             case 2:
-                cout << "Has seleccionado la Opción 2.\n";
+                cout << "Agregar contenido.\n";
             break;
             case 3:
-                cout << "Has seleccionado la Opción 2.\n";
+                cout << "Agregar interes a un usuario.\n";
             break;
             case 4:
-                cout << "Has seleccionado la Opción 2.\n";
+                cout << "Ver recomendaciones.\n";
             break;
             case 5:
-                cout << "Has seleccionado la Opción 2.\n";
+                cout << "Agregar usuario.\n";
             break;
             case 6:
                 cout << "Saliendo del programa...\n";
             break;
             default:
-                cout << "Opción no válida. Intente de nuevo.\n";
+                cout << "Opcion no valida... \n Intente de nuevo.\n";
         }
     } while (opcion != 6);
 }
