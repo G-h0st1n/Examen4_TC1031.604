@@ -1,0 +1,3 @@
+D:/C/C++ algoritmos/Ticket2/cmake-build-debug/CMakeFiles/Ticket2.dir
+D:/C/C++ algoritmos/Ticket2/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/C/C++ algoritmos/Ticket2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
