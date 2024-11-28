@@ -3,27 +3,49 @@
 //
 
 #include "RecommendationSystem.h"
+#include <unordered_set>
+#include <iostream>
 
-void RecommendationSystem::addUser(const string& user) {
+void RecommendationSystem::addUser(const std::string& user) {
     userManager.addUser(user);
+    graph.addUser(user);
 }
 
-void RecommendationSystem::addContent(const string& content) {
-    contentManager.addContent(content);
+void RecommendationSystem::addInterest(const std::string& user, const std::string& interest) {
+    userManager.addInterest(user, interest);
 }
 
-void RecommendationSystem::addFriend(const string& user1, const string& user2) {
-    graph.addEdge(user1, user2);
+void RecommendationSystem::addFriend(const std::string& user1, const std::string& user2) {
+    graph.addFriend(user1, user2);
 }
 
-vector<string> RecommendationSystem::recommendContent(const string& user) {
-    unordered_set<string> friends = graph.bfs(user);
-    unordered_set<string> interests;
+void RecommendationSystem::addContent(const std::string& category, const std::string& content) {
+    contentManager.addContent(category, content);
+}
 
+std::vector<std::string> RecommendationSystem::recommendContent(const std::string& user) {
+    std::unordered_set<std::string> allInterests;
+
+    // Obtener los amigos del usuario
+    auto friends = graph.getFriends(user);
+
+    // Obtener intereses de los amigos y agregarlos al conjunto de intereses
     for (const auto& friendUser : friends) {
         auto friendInterests = userManager.getInterests(friendUser);
-        interests.insert(friendInterests.begin(), friendInterests.end());
+        for (const auto& friendInterest : friendInterests) {
+            allInterests.insert(friendInterest);  // Solo agregamos los intereses de los amigos
+        }
     }
 
-    return contentManager.recommendByInterests(interests);
+    // Generar recomendaciones basadas en los intereses combinados
+    return contentManager.getRecommendations(allInterests);
+}
+
+// Métodos para obtener acceso a UserManager y Graph
+UserManager& RecommendationSystem::getUserManager() {
+    return userManager;
+}
+
+Graph& RecommendationSystem::getGraph() {
+    return graph;
 }

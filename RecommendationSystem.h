@@ -6,25 +6,29 @@
 #define RECOMMENDATIONSYSTEM_H
 
 #include <string>
-#include <unordered_set>
 #include <vector>
 #include "UserManager.h"
-#include "ContentManager.h"
 #include "Graph.h"
-
-using namespace std;
+#include "ContentManager.h"
 
 class RecommendationSystem {
 public:
-    void addUser(const string& user);
-    void addContent(const string& content);
-    void addFriend(const string& user1, const string& user2);
-    vector<string> recommendContent(const string& user);
+    // Métodos principales
+    void addUser(const std::string& user);
+    void addInterest(const std::string& user, const std::string& interest);
+    void addFriend(const std::string& user1, const std::string& user2);
+    void addContent(const std::string& category, const std::string& content);
+
+    std::vector<std::string> recommendContent(const std::string& user);
+
+    // Métodos para obtener acceso a UserManager y Graph
+    UserManager& getUserManager();
+    Graph& getGraph();
 
 private:
     UserManager userManager;
-    ContentManager contentManager;
     Graph graph;
+    ContentManager contentManager;
 };
 
-#endif //RECOMMENDATIONSYSTEM_H
+#endif // RECOMMENDATIONSYSTEM_H
