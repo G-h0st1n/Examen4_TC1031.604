@@ -19,23 +19,3 @@ private:
 
 #endif // GRAPH_H
 =======
-#ifndef GRAPH_H
-#define GRAPH_H
-
-#include <string>
-#include <unordered_map>
-#include <unordered_set>
-#include <vector>
-
-class Graph {
-public:
-    void addUser(const std::string& user);
-    void addFriend(const std::string& user1, const std::string& user2);
-    std::vector<std::string> getFriends(const std::string& user);
-
-private:
-    std::unordered_map<std::string, std::unordered_set<std::string>> adjList;
-};
-
-#endif // GRAPH_H
->>>>>>> 8ea2455e7646692c05827fea68b94b7470bc1ff9
