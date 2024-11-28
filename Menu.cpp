@@ -1,6 +1,7 @@
 //
 // Created by Edgar on 26/11/2024.
 //
+
 #include <iostream>
 using namespace std;
 
@@ -41,4 +42,3 @@ void mostrarMenu() {
         }
     } while (opcion != 6);
 }
-
