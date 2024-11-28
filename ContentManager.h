@@ -1,3 +1,10 @@
+<<<<<<< HEAD
+=======
+//
+// Created by hanes on 11/26/2024.
+//
+
+>>>>>>> 8ea2455e7646692c05827fea68b94b7470bc1ff9
 #ifndef CONTENTMANAGER_H
 #define CONTENTMANAGER_H
 

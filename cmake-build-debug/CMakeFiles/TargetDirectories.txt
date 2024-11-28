@@ -1,3 +1,9 @@
+<<<<<<< HEAD
 C:/Users/frpat/Downloads/integracione4/integracione4/cmake-build-debug/CMakeFiles/integracione4.dir
 C:/Users/frpat/Downloads/integracione4/integracione4/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/frpat/Downloads/integracione4/integracione4/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+=======
+C:/Users/frpat/OneDrive/Escritorio/Examenalg/cmake-build-debug/CMakeFiles/Examen4_TC1031_604.dir
+C:/Users/frpat/OneDrive/Escritorio/Examenalg/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/frpat/OneDrive/Escritorio/Examenalg/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+>>>>>>> 8ea2455e7646692c05827fea68b94b7470bc1ff9

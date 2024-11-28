@@ -1,4 +1,5 @@
 #include <iostream>
+<<<<<<< HEAD
 #include "RecommendationSystem.h"
 using namespace std;
 int main() {
@@ -91,5 +92,10 @@ int main() {
         }
     } while (choice != 6);
 
+=======
+
+int main() {
+    std::cout << "Hello, World!" << std::endl;
+>>>>>>> 8ea2455e7646692c05827fea68b94b7470bc1ff9
     return 0;
 }

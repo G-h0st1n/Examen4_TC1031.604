@@ -1,16 +1,17 @@
 "C:\Users\frpat\AppData\Local\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=C:/Users/frpat/AppData/Local/JetBrains/CLion 2024.1.4/bin/ninja/win/x64/ninja.exe" -G Ninja -S C:\Users\frpat\Downloads\integracione4\integracione4 -B C:\Users\frpat\Downloads\integracione4\integracione4\cmake-build-debug
--- The C compiler identification is GNU 13.1.0
--- The CXX compiler identification is GNU 13.1.0
--- Detecting C compiler ABI info
--- Detecting C compiler ABI info - done
--- Check for working C compiler: C:/Users/frpat/AppData/Local/JetBrains/CLion 2024.1.4/bin/mingw/bin/gcc.exe - skipped
--- Detecting C compile features
--- Detecting C compile features - done
--- Detecting CXX compiler ABI info
--- Detecting CXX compiler ABI info - done
--- Check for working CXX compiler: C:/Users/frpat/AppData/Local/JetBrains/CLion 2024.1.4/bin/mingw/bin/g++.exe - skipped
--- Detecting CXX compile features
--- Detecting CXX compile features - done
--- Configuring done (16.5s)
--- Generating done (0.0s)
--- Build files have been written to: C:/Users/frpat/Downloads/integracione4/integracione4/cmake-build-debug
+CMake Error: Parse error in cache file C:/Users/frpat/Downloads/integracione4/integracione4/cmake-build-debug/CMakeCache.txt on line 2. Offending entry: <<<<<<< HEAD
+CMake Error: Parse error in cache file C:/Users/frpat/Downloads/integracione4/integracione4/cmake-build-debug/CMakeCache.txt on line 6. Offending entry: >>>>>>> 8ea2455e7646692c05827fea68b94b7470bc1ff9
+CMake Error: Parse error in cache file C:/Users/frpat/Downloads/integracione4/integracione4/cmake-build-debug/CMakeCache.txt on line 114. Offending entry: <<<<<<< HEAD
+CMake Error: Parse error in cache file C:/Users/frpat/Downloads/integracione4/integracione4/cmake-build-debug/CMakeCache.txt on line 118. Offending entry: >>>>>>> 8ea2455e7646692c05827fea68b94b7470bc1ff9
+CMake Error: Parse error in cache file C:/Users/frpat/Downloads/integracione4/integracione4/cmake-build-debug/CMakeCache.txt on line 124. Offending entry: <<<<<<< HEAD
+CMake Error: Parse error in cache file C:/Users/frpat/Downloads/integracione4/integracione4/cmake-build-debug/CMakeCache.txt on line 128. Offending entry: >>>>>>> 8ea2455e7646692c05827fea68b94b7470bc1ff9
+CMake Error: Parse error in cache file C:/Users/frpat/Downloads/integracione4/integracione4/cmake-build-debug/CMakeCache.txt on line 172. Offending entry: <<<<<<< HEAD
+CMake Error: Parse error in cache file C:/Users/frpat/Downloads/integracione4/integracione4/cmake-build-debug/CMakeCache.txt on line 176. Offending entry: >>>>>>> 8ea2455e7646692c05827fea68b94b7470bc1ff9
+CMake Error: Parse error in cache file C:/Users/frpat/Downloads/integracione4/integracione4/cmake-build-debug/CMakeCache.txt on line 262. Offending entry: <<<<<<< HEAD
+CMake Error: Parse error in cache file C:/Users/frpat/Downloads/integracione4/integracione4/cmake-build-debug/CMakeCache.txt on line 278. Offending entry: >>>>>>> 8ea2455e7646692c05827fea68b94b7470bc1ff9
+CMake Error: Parse error in cache file C:/Users/frpat/Downloads/integracione4/integracione4/cmake-build-debug/CMakeCache.txt on line 290. Offending entry: <<<<<<< HEAD
+CMake Error: Parse error in cache file C:/Users/frpat/Downloads/integracione4/integracione4/cmake-build-debug/CMakeCache.txt on line 294. Offending entry: >>>>>>> 8ea2455e7646692c05827fea68b94b7470bc1ff9
+CMake Error: Parse error in cache file C:/Users/frpat/Downloads/integracione4/integracione4/cmake-build-debug/CMakeCache.txt on line 371. Offending entry: <<<<<<< HEAD
+CMake Error: Parse error in cache file C:/Users/frpat/Downloads/integracione4/integracione4/cmake-build-debug/CMakeCache.txt on line 375. Offending entry: >>>>>>> 8ea2455e7646692c05827fea68b94b7470bc1ff9
+CMake Error: The current CMakeCache.txt directory C:/Users/frpat/Downloads/integracione4/integracione4/cmake-build-debug/CMakeCache.txt is different than the directory c:/Users/frpat/OneDrive/Escritorio/Examenalg/cmake-build-debug where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt
+CMake Error: The source "C:/Users/frpat/Downloads/integracione4/integracione4/CMakeLists.txt" does not match the source "C:/Users/frpat/OneDrive/Escritorio/Examenalg/CMakeLists.txt" used to generate cache.  Re-run cmake with a different source directory.

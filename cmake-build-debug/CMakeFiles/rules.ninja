@@ -6,7 +6,11 @@
 # It is included in the main 'build.ninja'.
 
 # =============================================================================
+<<<<<<< HEAD
 # Project: integracione4
+=======
+# Project: Examen4_TC1031_604
+>>>>>>> 8ea2455e7646692c05827fea68b94b7470bc1ff9
 # Configurations: Debug
 # =============================================================================
 # =============================================================================
@@ -14,7 +18,11 @@
 #############################################
 # Rule for compiling CXX files.
 
+<<<<<<< HEAD
 rule CXX_COMPILER__integracione4_unscanned_Debug
+=======
+rule CXX_COMPILER__Examen4_TC1031_604_unscanned_Debug
+>>>>>>> 8ea2455e7646692c05827fea68b94b7470bc1ff9
   depfile = $DEP_FILE
   deps = gcc
   command = ${LAUNCHER}${CODE_CHECK}C:\Users\frpat\AppData\Local\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
@@ -24,7 +32,11 @@ rule CXX_COMPILER__integracione4_unscanned_Debug
 #############################################
 # Rule for linking CXX executable.
 
+<<<<<<< HEAD
 rule CXX_EXECUTABLE_LINKER__integracione4_Debug
+=======
+rule CXX_EXECUTABLE_LINKER__Examen4_TC1031_604_Debug
+>>>>>>> 8ea2455e7646692c05827fea68b94b7470bc1ff9
   command = C:\WINDOWS\system32\cmd.exe /C "$PRE_LINK && C:\Users\frpat\AppData\Local\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking CXX executable $TARGET_FILE
   restat = $RESTAT
@@ -42,7 +54,11 @@ rule CUSTOM_COMMAND
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
+<<<<<<< HEAD
   command = "C:\Users\frpat\AppData\Local\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -SC:\Users\frpat\Downloads\integracione4\integracione4 -BC:\Users\frpat\Downloads\integracione4\integracione4\cmake-build-debug
+=======
+  command = "C:\Users\frpat\AppData\Local\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -SC:\Users\frpat\OneDrive\Escritorio\Examenalg -BC:\Users\frpat\OneDrive\Escritorio\Examenalg\cmake-build-debug
+>>>>>>> 8ea2455e7646692c05827fea68b94b7470bc1ff9
   description = Re-running CMake...
   generator = 1
 
