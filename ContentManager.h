@@ -5,20 +5,18 @@
 #ifndef CONTENTMANAGER_H
 #define CONTENTMANAGER_H
 
-#include <iostream>
-#include <vector>
 #include <string>
+#include <vector>
 #include <unordered_map>
-
-using namespace std;
+#include <unordered_set>  // Asegúrate de incluir unordered_set aquí
 
 class ContentManager {
-    private:
-        vector<string> content;
+public:
+    void addContent(const std::string& category, const std::string& content);
+    std::vector<std::string> getRecommendations(const std::unordered_set<std::string>& interests);
 
-    public:
-        void addContent(string newContent);
-        string getContentByCategory ();
+private:
+    std::unordered_map<std::string, std::vector<std::string>> contentMap;
 };
 
-#endif //CONTENTMANAGER_H
+#endif // CONTENTMANAGER_H
