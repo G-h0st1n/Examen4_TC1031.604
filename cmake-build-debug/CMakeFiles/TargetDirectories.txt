@@ -1,0 +1,3 @@
+C:/Users/frpat/Downloads/integracione4/integracione4/cmake-build-debug/CMakeFiles/integracione4.dir
+C:/Users/frpat/Downloads/integracione4/integracione4/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/frpat/Downloads/integracione4/integracione4/cmake-build-debug/CMakeFiles/rebuild_cache.dir

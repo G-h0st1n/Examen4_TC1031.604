@@ -1,0 +1,8 @@
+# ninja log v6
+18	1360	7544692830391458	CMakeFiles/integracione4.dir/main.cpp.obj	a493ac1e16917c61
+196	1982	7544691947390032	CMakeFiles/integracione4.dir/Graph.cpp.obj	85be686abbd2d27d
+1423	1916	7544692844446243	integracione4.exe	7d7cdc9273dd526a
+32	1423	7544692830533383	CMakeFiles/integracione4.dir/RecommendationSystem.cpp.obj	3ff98b3675a4b38e
+56	1457	7544619853933362	CMakeFiles/integracione4.dir/menu.cpp.obj	9f765e472b03c4b8
+181	1754	7544691947229815	CMakeFiles/integracione4.dir/UserManager.cpp.obj	6ca457e48c40b8b1
+44	1373	7544692830654793	CMakeFiles/integracione4.dir/ContentManager.cpp.obj	e5e2e60e618a64d4
